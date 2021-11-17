@@ -7,7 +7,7 @@ import os
 import sys
 from pygame.locals import *
 
-
+# Amine can you change the color here ?
 black = (0,0,0)
 white =(255,255,255)
 
