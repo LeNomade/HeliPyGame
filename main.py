@@ -32,7 +32,7 @@ def makeTextObjs(text , font):
 def blocks (x_block , y_block , block_width , block_height , gap):
     pygame.draw.rect(surface , white ,[x_block,y_block,block_width,block_height])
     pygame.draw.rect(surface , white ,[x_block,y_block+block_height+gap,block_width,surfaceHeight])
-
+#I fixed line 34. Next time ...
 
 #define replay or
 def replay_or_quit():
