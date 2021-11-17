@@ -28,11 +28,11 @@ def makeTextObjs(text , font):
     textSurface = font.render(text, True , white )
     return textSurface , textSurface.get_rect()
 
-
+#Dominik, Please Review this
 def blocks (x_block , y_block , block_width , block_height , gap):
     pygame.draw.rect(surface , white ,[x_block,y_block,block_width,block_height])
     pygame.draw.rect(surface , white ,[x_block,y_block+block_height+gap,block_width,surfaceHeight])
-
+#I fixed line 34. Next time ...
 
 #define replay or
 def replay_or_quit():
